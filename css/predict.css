@@ -127,7 +127,7 @@ body {
   padding: 5px 10px 7px 10px;
   resize: none;
   scrollbar-width: inherit;
-  min-height: 45px;
+  /* min-height: 45px; */
 }
 
 .form {
@@ -145,9 +145,12 @@ body {
 @media (max-width: 770px) {
   .bottom .form {
     width: 80%;
+    top: -29px;
   }
   .bottom .text p {
     font-size: 11px;
+    position: relative;
+    top: -24px;
   }
 }
 .logo {
