@@ -17,6 +17,10 @@ function sendmail() {
       document.getElementsByName("message")[0].value,
   }).then((message) => alert(message));
 }
+
+
+
+
 let header = document.getElementsByClassName("header")[0];
 let plastine_dev = document.getElementsByClassName("plastine")[0];
 let plastine_img = document.getElementsByClassName("pl-img")[0];
